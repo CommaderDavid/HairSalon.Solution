@@ -1,0 +1,15 @@
+@{
+    Layout = "_Layout";
+}
+
+@model HairSalon.Models.Stylist
+
+<h2>Stylist Details</h2>
+<hr />
+<h3>@Html.DisplayNameFor(model => model.StylistName): @Html.DisplayFor(model => model.StylistName)<h3>
+        <ul>
+            @foreach (var item in Model.Clients)
+            {
+                <li>@item.ClientName</li>
+            }
+        </ul>
