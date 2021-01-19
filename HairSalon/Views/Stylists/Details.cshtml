@@ -8,9 +8,11 @@
 <hr />
 <h3>@Html.DisplayNameFor(model => model.StylistName): @Html.DisplayFor(model => model.StylistName)<h3>
         <h3>Details: @Html.DisplayFor(model => model.Description)</h3>
+        <p>Clients:</p>
         <ul>
             @foreach (var item in Model.Clients)
             {
                 <li>@item.ClientName</li>
             }
         </ul>
+        <p>@Html.ActionLink("Back to list", "Index")</p>
