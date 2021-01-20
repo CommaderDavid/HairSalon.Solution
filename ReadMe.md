@@ -5,7 +5,7 @@
 This program allows the user to create stylists and clients for a hair salon. The user creates stylists with a description, then creates clients to be attached to the stylists. This program is created with the use of .NET naming, Entity, and C#.
 ### Setup
 * `$git clone https://github.com/CommaderDavid/HairSalon.Solution`
-* Open MySQL to `Navigator > Administration`
+* Open MySQL Workbench to `Navigator > Administration`
 * Select `Data Import/Restore`
 * Select `Import from Self-Contained file` from Import options
 * Navigate to the .sql file
